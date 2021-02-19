@@ -1,8 +1,16 @@
+<p align="center">
+ <img width="1100" height="700" src=images/tanzania_flag.jpeg>
+ </p>
+
 # Pump it up: Data Mining the Tanzanian Water Crisis
 
 ## Overview
 
 This project aims to identify waterpoints (sources of clean water) that need repair in the developing country of Tanzania. With a population of 57 million, Tanzania only provides clean water to a little less than half of its population. Many of their waterpoints are in need of repair or have failed altogether. Access to clean water is essential to well-being and is a basic right for all individuals. Using data from Tarrifa and the Tanzanian Ministry of water, we will try to predict which water pumps are functional and which are in need of repair.
+
+<p align="center">
+ <img width="1100" height="700" src=images/water_well.jpg>
+ </p>
 
 ## Business Problem
 
@@ -26,7 +34,16 @@ Classification analysis was used in order to predict the status level of a pump.
 
 Our simplest model, Logistic Regression, came back with a confusion matrix that produced a 66.2% accuracy score and a 53.3% recall score. For our purposes, we were looking to minimize recall as we want to reduce the amount of False Negatives (predicting the pump is functional when it is not) as possible. Below is and ROC Curve illustrating the tradeoff between Sensitivity and Specificity. 
 
+<p align="center">
+ <img width="1100" height="700" src=images/roc_curve.png>
+ </p>
+
 Through running each model, Random Forest gave us the best result, with an accuracy score. We had three different models, each with their limitations. The model which maximized our total accuracy had no limit on max depth. However, this model was overfitting, so we decided to go with a model that had lower accuracy but would do better on unseen data (max_depth = 20). This resulted in and 82.35% accuracy and a sensitivity score of 75%. Below are the confusion matrix for both our simple model (Logistic Regression) and our final model (Random Forest).
+
+<p float="left">
+  <img src=images/logistic_reg.png" width="100" />
+  <img src=images/random_f_max_depth_20.png" width="100" /> 
+ </p>
 
 ## Conclusions
 
@@ -42,3 +59,9 @@ Through running each model, Random Forest gave us the best result, with an accur
 - Given the potential of this model to improve well-being and quality of life for the people of Tanzania, we also suggest adding functionality to the usage of this model to prioritize pump replacement/installation in communities with larger populations or where there is not already a functioning well.
 
 ## Repository Structure
+
+├── data
+├── images
+├── README.md
+├── Final_notebook.ipynb
+└── Pump_it_up_water_well.pdf
