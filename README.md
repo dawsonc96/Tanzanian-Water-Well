@@ -41,9 +41,9 @@ Our simplest model, Logistic Regression, came back with a confusion matrix that 
 Through running each model, Random Forest gave us the best result, with an accuracy score. We had three different models, each with their limitations. The model which maximized our total accuracy had no limit on max depth. However, this model was overfitting, so we decided to go with a model that had lower accuracy but would do better on unseen data (max_depth = 20). This resulted in and 82.35% accuracy and a sensitivity score of 75%. Below are the confusion matrix for both our simple model (Logistic Regression) and our final model (Random Forest).
 
 <p float="left">
-  <img src=images/logistic_reg.png" width="100" />
-  <img src=images/random_f_max_depth_20.png" width="100" /> 
- </p>
+  <img src="images/logistic_reg.png" width="100" />
+  <img src="images/random_f_max_depth_20.png" width="100" /> 
+</p>
 
 ## Conclusions
 
