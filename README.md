@@ -69,7 +69,7 @@ Through running each model, Random Forest gave us the best result, with an accur
 ```
 ├── data
 ├── images
-├── README.md
 ├── Final_notebook.ipynb
+├── README.md
 └── Pump_it_up_Data_Mining_the_Water_Crisis.pdf
 ```
