@@ -1,5 +1,5 @@
 <p align="center">
- <img width="800" height="400" src=images/tanzania_flag2.jpg>
+ <img width="650" height="325" src=images/tanzania_flag2.jpg>
  </p>
 
 # Pump it up: Data Mining the Tanzanian Water Crisis
@@ -24,7 +24,7 @@ The Tanzanian Ministry of Water and Tarrifa have provided us with data of waterp
 
 ### Cleaning and Feature Engineering
 
-This project uses data cleaning and feature engineering  To make our model a bit simpler, we categorized non functional pumps and pumps that need repair into the same group, as each of those pumps will need to be serviced. This also addressed the class imbalance between each variable. We also cleaned up our data, as there were missing values in multiple columns. For example, if "construction year" of the waterpoint was missing a value, we filled that value with the mean construction year of all waterpoints within that given region. We also engineered one column "age" to equal the age of the waterpoint when the data was collected. Cleaning our data and building these features helped make our model more interpretable and significant.
+This project uses data cleaning and feature engineering  To make our model a bit simpler, we categorized non functional pumps and pumps that need repair into the same group, as each of those pumps will need to be serviced. This also addressed the class imbalance between each variable. We also cleaned up our data, as there were missing values in multiple columns. For example, if "construction year" of the waterpoint had a missing value, we filled that value with the mean construction year of all waterpoints within that given region. We also engineered one column "age" to equal the age of the waterpoint when the data was collected. Cleaning our data and building these features helped make our model more interpretable and significant.
 
 ### Models Development
 
