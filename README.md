@@ -35,7 +35,7 @@ Classification analysis was used in order to predict the status level of a pump.
 Our simplest model, Logistic Regression, came back with a confusion matrix that produced a 66.2% accuracy score and a 53.3% recall score. For our purposes, we were looking to minimize recall as we want to reduce the amount of False Negatives (predicting the pump is functional when it is not) as possible. Below is and ROC Curve illustrating the tradeoff between Sensitivity and Specificity. 
 
 <p align="center">
- <img width="500" height="300" src=images/roc_curve.png>
+ <img width="400" height="300" src=images/roc_curve.png>
  </p>
 
 Through running each model, Random Forest gave us the best result, with an accuracy score. We had three different models, each with their limitations. The model which maximized our total accuracy had no limit on max depth. However, this model was overfitting, so we decided to go with a model that had lower accuracy but would do better on unseen data (max_depth = 20). This resulted in and 82.35% accuracy and a sensitivity score of 75%. Below are the confusion matrix for both our simple model (Logistic Regression) and our final model (Random Forest).
@@ -43,13 +43,13 @@ Through running each model, Random Forest gave us the best result, with an accur
 #### Logistic Regression Confusion Matrix
 
 <p align="center">
- <img width="900" height="500" src=images/logistic_reg.png>
+ <img width="700" height="500" src=images/logistic_reg.png>
  </p>
  
 #### Random Forest Confusion Matrix
 
 <p align="center">
- <img width="900" height="500" src=images/random_f_max_depth20.png>
+ <img width="700" height="500" src=images/random_f_max_depth20.png>
  </p>
 
 ## Conclusions
