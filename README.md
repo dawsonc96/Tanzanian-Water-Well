@@ -66,8 +66,10 @@ Through running each model, Random Forest gave us the best result, with an accur
 
 ## Repository Structure
 
+```
 ├── data
 ├── images
 ├── README.md
 ├── Final_notebook.ipynb
-└── Pump_it_up_water_well.pdf
+└── Pump_it_up_Data_Mining_the_Water_Crisis.pdf
+```
