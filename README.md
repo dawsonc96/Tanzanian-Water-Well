@@ -35,7 +35,7 @@ Classification analysis was used in order to predict the status level of a pump.
 Our simplest model, Logistic Regression, came back with a confusion matrix that produced a 66.2% accuracy score and a 53.3% recall score. For our purposes, we were looking to minimize recall as we want to reduce the amount of False Negatives (predicting the pump is functional when it is not) as possible. Below is and ROC Curve illustrating the tradeoff between Sensitivity and Specificity. 
 
 <p align="center">
- <img width="900" height="500" src=images/roc_curve.png>
+ <img width="500" height="300" src=images/roc_curve.png>
  </p>
 
 Through running each model, Random Forest gave us the best result, with an accuracy score. We had three different models, each with their limitations. The model which maximized our total accuracy had no limit on max depth. However, this model was overfitting, so we decided to go with a model that had lower accuracy but would do better on unseen data (max_depth = 20). This resulted in and 82.35% accuracy and a sensitivity score of 75%. Below are the confusion matrix for both our simple model (Logistic Regression) and our final model (Random Forest).
@@ -56,7 +56,6 @@ Through running each model, Random Forest gave us the best result, with an accur
 
 - There is an overwhelming high amount of waterpoints that need to be serviced. Using our model, we can predict which waterpoints need to be serviced relatively accurately, helping communities and the Tanzanian government work quicker to address waterpoints that need repair.
 - Older waterpoints are much more likely to be failing or in need of repair. Focusing your energies on those waterpoints could be beneficial.
-- Extraction Type and Waterpoint Type were also important metrics i
 
 ## Next Steps
 
