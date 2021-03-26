@@ -1,5 +1,5 @@
 <p align="center">
- <img width="650" height="325" src=images/tanzanian_flag2.jpg>
+ <img width="650" height="325" src=images/tanzania_flag2.jpg>
  </p>
 
 # Pump it up: Data Mining the Tanzanian Water Crisis
