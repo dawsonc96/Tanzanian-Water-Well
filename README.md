@@ -1,5 +1,5 @@
 <p align="center">
- <img width="650" height="325" src=images/tanzania_flag2.jpg>
+ <img width="650" height="325" src=images/nba_logo.jpg>
  </p>
 
 # Pump it up: Data Mining the Tanzanian Water Crisis
@@ -43,13 +43,13 @@ Through running each model, Random Forest gave us the best result, with an accur
 #### Logistic Regression Confusion Matrix
 
 <p align="center">
- <img width="700" height="500" src=images/logistic_reg.png>
+ <img width="700" height="500" src=images/.png>
  </p>
  
 #### Random Forest Confusion Matrix
 
 <p align="center">
- <img width="700" height="500" src=images/random_f_max_depth20.png>
+ <img width="700" height="500" src=images/adaboost_cm.png>
  </p>
 
 ## Conclusions
